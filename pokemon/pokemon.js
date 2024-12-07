@@ -10,6 +10,6 @@ function pokemonList() {
         console.log("Stats", data.stats.map(abilityInfo => abilityInfo.stat.name));
     })
     .catch(error => {
-        console.error('Error:', error);
+        console.error('Error:', error); 
     });
 }
